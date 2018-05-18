@@ -20,6 +20,3 @@ def netmask(mask):
     else:
         mask_length += binary_mask.count("1")
     return mask_length
-
-mask = "255.255.254.128"
-print(netmask(mask))
